@@ -1,8 +1,10 @@
-// Base
-@import 'Base/reset';
-
 //Helpers
 @import 'Helpers/variable';
 
+
+// Base
+@import 'Base/reset';
+
 //Layout
 @import 'Layouts/header';
+@import 'Layouts/vehicles-header';

@@ -4,13 +4,15 @@ $color-blue-100: #007cc3;
 $color-blue-200: #2198dc;
 $color-dark-blue-100: #00446a;
 $color-dark-blue-200: #00324f;
+$color-blue-overlay: rgba(0,67,108,0.8);
 $color-orange: #ff4040;
-
+$color-grey: #f6f6f6;
 // FONT
-$font-size-html: 16px;
+$font-size-html: 12px;
 $font-size-1: 1.4rem;
 $font-size-2: 1.8rem;
-$font-size-3: 6rem;
+$font-size-3: 2.4rem;
+$font-size-4: 6rem;
 $font-weight-bold: bold;
 $font-weight-normal: normal;
 $font-weight-300: 300;
@@ -22,9 +24,12 @@ $pd-3: 20px;
 $pd-4: 25px;
 $pd-5: 30px;
 $pd-6: 50px;
+$pd-7: 5%;
 
 // MARGIN
-$mg-up: -200px;
+$mg-up-1: -5px;
+$mg-up-2: -2.7rem;
+$mg-up-3: -200px;
 $mg-1: 20px;
 $mg-2: 30px;
 $mg-3: 45px;
@@ -33,3 +38,4 @@ $mg-5: 100px;
 
 // BORDER
 $border-1: 1px solid #4f91ca;
+$border-2: .2rem solid #e5e5e5;
