@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  padding: 0;
+}
+
+#header {
+  background-color: #007cc3;
+}
+
+#header a {
+  color: #fff;
+  padding: 20px 25px;
+  border-right: 1px solid #4f91ca;
+  border-left: 1px solid #4f91ca;
+}
+
+#header .navbar > a:first-child {
+  padding: 0 25px;
+}
+
+.no-border {
+  border: 0 !important;
+}
+/*# sourceMappingURL=main.css.map */
