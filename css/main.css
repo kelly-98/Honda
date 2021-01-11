@@ -1,3 +1,51 @@
+#img-1 {
+  background: linear-gradient(#bbbdc0, #f6f6f6, #f6f6f6);
+}
+
+.vehicle-product:hover > #img-1 {
+  background: linear-gradient(#3C4C5C, #f6f6f6, #f6f6f6);
+}
+
+#img-2 {
+  background: linear-gradient(#bbbdc0, #f6f6f6, #f6f6f6);
+}
+
+.vehicle-product:hover > #img-2 {
+  background: linear-gradient(#5E5E5E, #f6f6f6, #f6f6f6);
+}
+
+#img-3 {
+  background: linear-gradient(#bbbdc0, #f6f6f6, #f6f6f6);
+}
+
+.vehicle-product:hover > #img-3 {
+  background: linear-gradient(#14409A, #f6f6f6, #f6f6f6);
+}
+
+#img-4 {
+  background: linear-gradient(#bbbdc0, #f6f6f6, #f6f6f6);
+}
+
+.vehicle-product:hover > #img-4 {
+  background: linear-gradient(#C0BAB5, #f6f6f6, #f6f6f6);
+}
+
+#img-5 {
+  background: linear-gradient(#bbbdc0, #f6f6f6, #f6f6f6);
+}
+
+.vehicle-product:hover > #img-5 {
+  background: linear-gradient(#5C5C5C, #f6f6f6, #f6f6f6);
+}
+
+#img-6 {
+  background: linear-gradient(#bbbdc0, #f6f6f6, #f6f6f6);
+}
+
+.vehicle-product:hover > #img-6 {
+  background: linear-gradient(#33569C, #f6f6f6, #f6f6f6);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -5,6 +53,39 @@ body {
 
 html {
   font-size: 12px;
+}
+
+.btn-vehicle {
+  border: 2px solid #2198dc;
+  border-radius: 40px;
+  background-color: #2198dc;
+  color: #fff;
+  font-weight: bold;
+  padding: 6px 30px;
+  font-size: 1.4rem;
+  transition: all .5s;
+  margin-right: 5px;
+}
+
+.btn-vehicle:hover {
+  background-color: #fff;
+  color: #007cc3;
+}
+
+.btn-vehicle-active {
+  border: 2px solid #2198dc;
+  border-radius: 40px;
+  background-color: #fff;
+  color: #007cc3;
+  font-weight: bold;
+  padding: 6px 30px;
+  font-size: 1.4rem;
+  transition: all .5s;
+}
+
+.btn-vehicle-active:hover {
+  background-color: #2198dc;
+  color: #fff;
 }
 
 .navbar {
@@ -95,5 +176,43 @@ html {
 
 #vehicles #vehicle-content #vehicle-list .vehicle-title h1 span {
   font-weight: normal;
+}
+
+#vehicles #vehicle-content #vehicle-list .vehicle-product {
+  color: #00324f;
+  transition: all .5s;
+  margin-bottom: 30px;
+}
+
+#vehicles #vehicle-content #vehicle-list .vehicle-product:hover > .vehicle-img img:last-child {
+  display: block;
+}
+
+#vehicles #vehicle-content #vehicle-list .vehicle-product:hover > .vehicle-img img:first-child {
+  display: none;
+}
+
+#vehicles #vehicle-content #vehicle-list .vehicle-product .vehicle-img img:last-child {
+  display: none;
+}
+
+#vehicles #vehicle-content #vehicle-list .vehicle-product h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#vehicles #vehicle-content #vehicle-list .vehicle-product .vehicle-info {
+  margin-bottom: 20px;
+}
+
+#vehicles #vehicle-content #vehicle-list .vehicle-product .vehicle-info h3 {
+  font-weight: normal;
+  font-size: 2.4rem;
+}
+
+#vehicles #vehicle-content #vehicle-list .vehicle-product .vehicle-info p {
+  font-size: 1.4rem;
+  margin-bottom: 5px;
 }
 /*# sourceMappingURL=main.css.map */

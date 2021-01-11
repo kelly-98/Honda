@@ -1,9 +1,12 @@
 //Helpers
 @import 'Helpers/variable';
-
+@import 'Helpers/function';
 
 // Base
 @import 'Base/reset';
+
+//Components
+@import 'Components/button';
 
 //Layout
 @import 'Layouts/header';
